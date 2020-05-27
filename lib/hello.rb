@@ -9,7 +9,7 @@ yield array[i]
 array
 
 else 
-  puts "Hey! No blocks was given!"
+  puts "Hey! No block was given!"
   end 
 end
 
