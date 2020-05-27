@@ -5,9 +5,12 @@ while i < array.length
 yield array[i]
  i = i + 1 
  end 
+
 array
 
 else 
+  puts "Hey! No blocks was given!"
+  end 
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
